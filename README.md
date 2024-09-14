@@ -34,7 +34,7 @@ This repository contains a FastAPI application that uses a pre-trained model to 
 2. **Ensure the model file is in place:**:
     Make sure your model file (vehicle_type_identifier_model.keras) is placed in the same directory as main.py.
 
-3. **Run the FastAPI Application::**:
+3. **Run the FastAPI Application:**:
     ```bash
     uvicorn main:app --reload
     ```
