@@ -22,7 +22,7 @@ This repository contains a FastAPI application that uses a pre-trained model to 
     ```bash
         pip install -r requirements.txt
     ```
-H
+
 ## How to Run the Application
 
 1. **Clone this repository**:
