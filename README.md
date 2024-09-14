@@ -1,6 +1,5 @@
 ## Vehicle Type Prediction API
-![FastAPI](README images/FastAPI_b.jpg)
-
+![FastAPI](README%20images/FastAPI_b.jpg)
 
 This repository contains a FastAPI application that uses a pre-trained model to predict the type of vehicle (bus, car, motorcycle, or truck) based on an uploaded image.
 
