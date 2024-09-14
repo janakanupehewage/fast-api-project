@@ -32,24 +32,19 @@ H
     ```
 
 2. **Ensure the model file is in place:**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Ensure the model file is in place:**:
     Make sure your model file (vehicle_type_identifier_model.keras) is placed in the same directory as main.py.
 
-4. **Run the FastAPI Application::**:
+3. **Run the FastAPI Application::**:
     ```bash
     uvicorn main:app --reload
     ```
 
-5. **Access the API:**:
+4. **Access the API:**:
     ```bash
     http://127.0.0.1:8000
     ```
 
-6. **Get Swager UI**
+5. **Get Swagger UI**
 
     ```bash
     http://127.0.0.1:8000/docs
