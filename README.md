@@ -1,4 +1,6 @@
 ## Vehicle Type Prediction API
+![FastAPI](README images/FastAPI_b.jpg)
+
 
 This repository contains a FastAPI application that uses a pre-trained model to predict the type of vehicle (bus, car, motorcycle, or truck) based on an uploaded image.
 
@@ -14,7 +16,7 @@ This repository contains a FastAPI application that uses a pre-trained model to 
 - Before running the application, make sure you have the following dependencies installed:
 
     ```bash
-        pip install -r requirements.txt
+        pip install fastapi tensorflow pillow uvicorn
     ```
 
 - You can install all the required dependencies at once using the following command:
@@ -35,25 +37,20 @@ H
     pip install -r requirements.txt
     ```
 
-3. **Run the Streamlit application**:
-    ```bash
-    streamlit run app.py
-    ```
-
-2. **Ensure the model file is in place:**:
+3. **Ensure the model file is in place:**:
     Make sure your model file (vehicle_type_identifier_model.keras) is placed in the same directory as main.py.
 
-3. **Run the FastAPI Application::**:
+4. **Run the FastAPI Application::**:
     ```bash
     uvicorn main:app --reload
     ```
 
-4. **Access the API:**:
+5. **Access the API:**:
     ```bash
     http://127.0.0.1:8000
     ```
 
-5. **Get Swager UI**
+6. **Get Swager UI**
 
     ```bash
     http://127.0.0.1:8000/docs
