@@ -12,7 +12,7 @@ This repository contains a FastAPI application that uses a pre-trained model to 
 
 ## Requirements
 
-- Before running the application, make sure you have the following dependencies installed:
+- For local testing or development, install the following dependencies:
 
     ```bash
         pip install fastapi tensorflow pillow uvicorn
@@ -23,7 +23,7 @@ This repository contains a FastAPI application that uses a pre-trained model to 
         pip install -r requirements.txt
     ```
 
-## How to Run the Application in Your Local Computer
+## How to Run the Application Locally
 
 1. **Clone this repository**:
     ```bash
@@ -44,8 +44,17 @@ This repository contains a FastAPI application that uses a pre-trained model to 
     http://127.0.0.1:8000
     ```
 
-5. **Get Swagger UI**
+5. **Swagger UI Documentation: For interactive API documentation, visit:**
 
     ```bash
     http://127.0.0.1:8000/docs
     ```
+
+## Access the Deployed API on Hugging Face
+
+- The application is live on Hugging Face. You can access it using the following URL:
+
+    ```bash
+        https://janaka-nupehewage-fast-api-project.hf.space
+    ```
+- The same FastAPI features and functionality are available, allowing you to upload images and receive vehicle type predictions.
